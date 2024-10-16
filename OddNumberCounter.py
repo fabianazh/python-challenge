@@ -1,3 +1,5 @@
+# Counting total odd number in a number
+
 def OddNumberCounter(number):
     total_odd = []
     for i in range (0, number):

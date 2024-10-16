@@ -1,6 +1,8 @@
-def StringReversal(word):
-    return word[::-1]
+# Reversing a text
 
-user_input = input('Enter a word : ')
+def StringReversal(text):
+    return text[::-1]
+
+user_input = input('Enter a text : ')
 
 print(StringReversal(user_input))
